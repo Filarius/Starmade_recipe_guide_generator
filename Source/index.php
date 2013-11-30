@@ -27,24 +27,6 @@ header("Content-Type: text/html; charset=utf-8");
 
 define("PATH_TO_CONFIG","blockconfig.xml");
 
-function parser($ar,$text='')
-{
-    $data;
-    
-    foreach($ar as $key => $value)
-    {
-        if(is_array($value))
-        {
-            $data.=parser($value,$text."[$key]");
-        }
-        else {
-           $data.= $text."[$key]=$value</br>\n\r";
-        }
-    }
-    return $data;
-}            
-
-
 function xml2array($xml,$spacer='')
 {                                       
     $i=-1;
