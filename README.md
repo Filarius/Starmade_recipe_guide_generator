@@ -13,5 +13,5 @@ Bug: script can to not find names for blocks if there is more then 2 levels in b
 Code not best, and still can have unneeded and be not optimal.
 
 
-Script is free for use "AS IS", but please make credits to author, and if you make profits on same project where you use this - it will be nice to make a tip.
+Script is free for use "AS IS", please make credits to author.
 
