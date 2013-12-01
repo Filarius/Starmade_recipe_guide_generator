@@ -1,4 +1,3 @@
-
 Starmade recipe guide generator.
 
 This is PHP script what takes XML Starmade server config file and generate user-friendly guides for better understanding of recipes craft modification.
@@ -9,6 +8,7 @@ Script need not compressed server's block config XML file.
 Config file must have information about all items as script use this info to get block`s names from IDs in recipes.
 
 Bug: script can to not find names for blocks if there is more then 2 levels in blocks categories.
+Bug: somewhy script fail check of compare modification date of hmtl and xml and do not skip new generation then it is not needed to do
      
 Code not best, and still can have unneeded and be not optimal.
 
